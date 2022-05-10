@@ -15,6 +15,14 @@ All of data inside it's demo.
 
 Kiss
 
+## Documentation
+
+UNDER CONSTRUCTION
+
+## Think schema
+
+![Think schema](./schema.png)
+
 ## Project setup
 ```
 npm install
