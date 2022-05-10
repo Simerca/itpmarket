@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "provider":{"name":"Space-A"},
+        "category":{"id":1,"name":"Foods"},
+        "weight":250,
+        "from":{
+            "planet":"🌍 Earth"
+        },
+        "featured_image":"/img/products/2204_Pouch+Bag-ana-1920w.webp",
+        "title":"Ananas IO Foods",
+        "description":"This food is very great and powerfull for astronauts",
+        "currency":"XLM",
+        "price":13.4
+    },
+    {
+        "id":2,
+        "provider":{"name":"SpacePen"},
+        "category":{"id":2,"name":"Pencils"},
+        "weight":300,
+        "from":{
+            "planet":"🌍 Earth"
+        },
+        "featured_image":"/img/products/AG7-MW_Moonwalker_UP101_Box_open_300dpi_500.png",
+        "title":"Space pen",
+        "description":"Best pen for space adventurer",
+        "currency":"XLM",
+        "price":100
+    },
+    {
+        "id":3,
+        "provider":{"name":"NASA"},
+        "category":{"id":3,"name":"Suits"},
+        "weight":1500,
+        "from":{
+            "planet":"🌍 Earth"
+        },
+        "featured_image":"/img/products/flight_suit_white_1000psi_1024x1024.webp",
+        "title":"Space Astronaut Suit",
+        "description":"Essential suit for live in space",
+        "currency":"XLM",
+        "price":1230
+    },
+    {
+        "id":4,
+        "provider":{"name":"Olivier.V"},
+        "category":{"id":4,"name":"Minerals"},
+        "weight":4000,
+        "from":{
+            "planet":"🌍 Mars"
+        },
+        "featured_image":"/img/products/il_1588xN.3564999467_41ix.avif",
+        "title":"Mars rock",
+        "description":"Real mars rock for science or hobbist",
+        "currency":"XLM",
+        "price":13400
+    }
+]

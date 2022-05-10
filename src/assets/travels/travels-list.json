@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "provider":{"name":"Space-X"},
+        "category":{"name":"Travel"},
+        "from":{
+            "planet":"🌍 Earth"
+        },
+        "to":{
+            "planet":"🌍 Mars"
+        },
+        "departure":{
+            "time":"2023-04-01 01:00:00"
+        },
+        "arrival":{
+            "time":"2023-07-04 04:00:00"
+        },
+        "featured_image":"/img/products/istockphoto-1053794310-612x612.jpeg",
+        "title":"Mars Travel",
+        "description":"Full Mars travel",
+        "currency":"XLM",
+        "price":1000345
+    },
+    {
+        "id":2,
+        "provider":{"name":"Space-X"},
+        "category":{"name":"Travel"},
+        "from":{
+            "planet":"🌍 Earth"
+        },
+        "to":{
+            "planet":"ISS"
+        },
+        "departure":{
+            "time":"2022-07-01 04:00:00"
+        },
+        "arrival":{
+            "time":"2022-07-01 08:00:00"
+        },
+        "featured_image":"/img/products/istockphoto-1253695434-612x612.jpeg",
+        "title":"ISS Week",
+        "description":"Take a break inside ISS",
+        "currency":"XLM",
+        "price":30450
+    }
+]
