@@ -2,6 +2,8 @@
 
 ### The world first interplanetary e-commerce based on Stellar Lumens (XLM) blockchain
 
+![The world first interplanetary e-commerce based on blockchain](./capture.png)
+
 Hi !
 I'm Ayrton, a french developper. 
 
