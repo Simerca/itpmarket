@@ -1,4 +1,17 @@
-# app
+# ITP Market
+
+### The world first interplanetary e-commerce based on Stellar Lumens (XLM) blockchain
+
+Hi !
+I'm Ayrton, a french developper. 
+
+I have created the first interplanetary e-commerce based on the blockchain Stellar Lumens (XLM).
+
+The project is under construction and is build with VueJs.
+
+All of data inside it's demo.
+
+Kiss
 
 ## Project setup
 ```
