@@ -15,6 +15,18 @@ All of data inside it's demo.
 
 Kiss
 
+## Features
+
+- [x] Web 3.0
+- [x] Stellar Lumens Test Network connection support
+- [x] Freighter wallet support (https://www.freighter.app/)
+- [x] Buy Products
+- [x] Buy Travels
+- [x] Dashboard
+- [x] Last transactions list
+- [x] Offline mode
+
+
 ## Demo
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0c5c6cff-d3d0-45ec-b6fd-1e56d6981608/deploy-status)](https://app.netlify.com/sites/itp-platform/deploys)
 
