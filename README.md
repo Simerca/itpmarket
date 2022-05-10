@@ -15,6 +15,12 @@ All of data inside it's demo.
 
 Kiss
 
+## Demo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c5c6cff-d3d0-45ec-b6fd-1e56d6981608/deploy-status)](https://app.netlify.com/sites/itp-platform/deploys)
+
+See the demo
+https://itp-platform.netlify.app
+
 ## Documentation
 
 UNDER CONSTRUCTION
