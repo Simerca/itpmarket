@@ -73,7 +73,7 @@
           </v-list-item>
 
           <v-list-item to="/configurator">
-            <v-list-item-title>Configurator<small>Bêta</small></v-list-item-title>
+            <v-list-item-title>Cargo<small>Bêta</small></v-list-item-title>
           </v-list-item>
         </v-list>
         <v-col>
