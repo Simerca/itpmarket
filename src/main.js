@@ -6,6 +6,7 @@ import store from './store'
 import vuetify from './plugins/vuetify'
 import moment from 'moment';
 import axios from 'axios';
+import i18n from './i18n'
 Vue.prototype.$moment = moment;
 
 Vue.config.productionTip = false
@@ -24,5 +25,6 @@ new Vue({
   router,
   store,
   vuetify,
+  i18n,
   render: h => h(App)
 }).$mount('#app')

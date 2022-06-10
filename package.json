@@ -5,7 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
+  },
+  "browser": {
+    "http": false,
+    "https": false,
+    "net": false,
+    "path": false,
+    "stream": false,
+    "tls": false,
+    "fs": false
   },
   "dependencies": {
     "axios": "^0.27.2",
@@ -19,9 +29,12 @@
     "register-service-worker": "^1.7.2",
     "stellar-sdk": "^10.1.0",
     "stream-http": "^3.2.0",
+    "three": "^0.127.0",
     "url": "^0.11.0",
     "util": "^0.12.4",
     "vue": "^2.6.14",
+    "vue-gl": "^1.0.0",
+    "vue-i18n": "^8.26.3",
     "vue-router": "^3.5.1",
     "vuetify": "^2.6.0",
     "vuex": "^3.6.2"
@@ -39,17 +52,9 @@
     "eslint-plugin-vue": "^8.0.3",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
+    "vue-cli-plugin-i18n": "~2.3.1",
     "vue-cli-plugin-vuetify": "~2.4.8",
     "vue-template-compiler": "^2.6.14",
     "vuetify-loader": "^1.7.0"
-  },
-  "browser": {
-    "http": false,
-    "https": false,
-    "net": false,
-    "path": false,
-    "stream": false,
-    "tls": false,
-    "fs": false
   }
 }

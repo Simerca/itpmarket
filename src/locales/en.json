@@ -1,0 +1,27 @@
+{
+  "message": "hello i18n !!",
+  "label":{
+    "title":"Title",
+    "newPayloadItem":"New payload item",
+    "qty":"Quantity"
+  },
+  "configurator":{
+    "selectHeaddress":"Select the Headdress",
+    "createPayloadItem":"Create Payload Item",
+    "payloadMargin": "Marge utile"
+  },
+  "button":{
+    "new":"Add item"
+  },
+  "metrics":{
+    "x":"Width",
+    "y":"Height",
+    "z":"Length",
+    "vol":"Volume",
+    "pods":"Weight",
+    "title":"Name",
+    "type":"Type",
+    "qty":"Quantity"
+
+  }
+}

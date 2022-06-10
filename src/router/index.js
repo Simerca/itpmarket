@@ -16,6 +16,11 @@ const routes = [
     component:()=>import('@/views/CreateAccount')
   },
   {
+    path:'/configurator',
+    name:'configurator',
+    component:()=>import('@/views/ConfiguratorView')
+  },
+  {
     path:'/dashboard',
     name:'Dashboard',
     component:()=>import('@/views/Dashboard')

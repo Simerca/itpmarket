@@ -13,6 +13,7 @@
         <v-btn elevation="0" class="mr-3" to="/"> Home </v-btn>
         <v-btn elevation="0" class="mr-3" to="/products"> Products </v-btn>
         <v-btn elevation="0" class="mr-3" to="/travels"> Travels </v-btn>
+        <v-btn elevation="0" class="mr-3" to="/configurator"> Cargo<small>Bêta</small> </v-btn>
         <v-btn
           v-if="!publicKey"
           outlined
@@ -69,6 +70,10 @@
 
           <v-list-item to="/travels">
             <v-list-item-title>Travels</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item to="/configurator">
+            <v-list-item-title>Configurator<small>Bêta</small></v-list-item-title>
           </v-list-item>
         </v-list>
         <v-col>

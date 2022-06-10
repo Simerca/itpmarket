@@ -3,6 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: [
     'vuetify'
   ],
+
   configureWebpack:{
     resolve: {
       fallback: {
@@ -11,5 +12,15 @@ module.exports = defineConfig({
           buffer: require.resolve("buffer"),
       },
   }
+  },
+
+  pluginOptions: {
+    i18n: {
+      locale: 'en',
+      fallbackLocale: 'en',
+      localeDir: 'locales',
+      enableInSFC: false,
+      enableBridge: false
+    }
   }
 })
