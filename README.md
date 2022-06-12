@@ -24,7 +24,8 @@ Kiss
 - [x] Buy Travels
 - [x] Dashboard
 - [x] Last transactions list
-- [x] Offline mode
+- [x] Offline mode 
+- [x] Cargo (Rocket payload management)
 
 
 ## Demo
