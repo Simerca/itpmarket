@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Chaîne de blocs</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      td, th {
+        border: 1px solid black;
+        padding: 5px;
+      }
+      th {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="blockchain">
+      <tr>
+        <th>Timestamp</th>
+        <th>Données</th>
+        <th>Hash précédent</th>
+        <th>Hash</th>
+      </tr>
+    </table>
+    <script>
+      function showChain() {
+        // Envoi d'une demande GET pour récupérer la chaîne de blocs
+        fetch("http://0.0.0.0:5001/show_chain")
+          .then(response => response.json())
+          .then(chain => {
+            // Récupération de la table HTML
+            var table = document.getElementById("blockchain");
+            // Pour chaque bloc de la chaîne de blocs...
+            chain.chain.forEach(block => {
+              // Création d'une nouvelle ligne de tableau
+              var row = table.insertRow();
+              // Création des cellules de la ligne
+              var timestampCell = row.insertCell();
+              var dataCell = row.insertCell();
+              var previousHashCell = row.insertCell();
+              var hashCell = row.insertCell();
+              // Remplissage des cellules avec les valeurs des propriétés du bloc
+              timestampCell.innerHTML = block.timestamp;
+              dataCell.innerHTML = block.data;
+              previousHashCell.innerHTML = block.previous_hash;
+              hashCell.innerHTML = block.hash;
+            });
+          });
+      }
+      // Appel de la fonction showChain() dès que la page est chargée
+      window.onload = showChain;
+    </script>
+  </body>
+</html>
