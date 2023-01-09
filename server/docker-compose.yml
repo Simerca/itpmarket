@@ -8,7 +8,7 @@ services:
       - "traefik.http.routers.app.entrypoints=web"
       - "traefik.http.services.app.loadbalancer.server.port=5000"
       - "traefik.http.routers.app.tls=true"
-      - "traefik.http.routers.app.tls.certresolver=le"
+      - "traefik.http.routers.app.tls.certresolver=letsencrypt"
     networks:
       - web
     ports:
