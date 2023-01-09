@@ -3,16 +3,22 @@ services:
   app:
     image: ghcr.io/simerca/itpmarket:latest
     labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.app.rule=Host(`${HOSTNAME}`)"
-      - "traefik.http.routers.app.entrypoints=web"
-      - "traefik.http.services.app.loadbalancer.server.port=5000"
-      - "traefik.http.routers.app.tls=true"
-      - "traefik.http.routers.app.tls.certresolver=letsencrypt"
+      - traefik.enable=true
+
+      - traefik.http.routers.itpmarket-http.entrypoints=web
+      - traefik.http.routers.itpmarket-http.rule=Host(`${HOSTNAME}`)
+
+      - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
+      - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
+      - traefik.http.routers.itpmarket-http.middlewares=https-redirect@docker
+
+      - traefik.http.routers.itpmarket-https.entrypoints=websecure
+      - traefik.http.routers.itpmarket-https.rule=Host(`${HOSTNAME}`)
+      - traefik.http.routers.itpmarket-https.tls=true
+      - traefik.http.routers.itpmarket-https.tls.certresolver=letsencrypt
+      - traefik.http.services.itpmarket.loadbalancer.server.port=5000
     networks:
       - web
-    ports:
-      - 5002:5000
 
 networks:
   web:
